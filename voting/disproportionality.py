@@ -56,17 +56,27 @@ def calculate_gallagher_index(vote_seat_percentages_list):
     return sqrt(sum([pow(v - s, 2) for v, s in vote_seat_percentages_list])/2.0)
 
 
+def calculate_effective_number_of_parties(vote_seat_percentages_list):
+    """
+    Calculate the effective number of parties as used by adjusted Loosemore-Hanby (Grofman) index of disproportionality.
+    :param vote_seat_percentages_list: list of tuples containing (percentage of votes, percentage of seats)
+    :return: a dictionary using the keys EFFECTIVE_NUMBER_OF_PARTIES_BY_VOTES and EFFECTIVE_NUMBER_OF_PARTIES_BY_SEATS
+    """
+    n_v = 1.0/sum([pow(v/100.0, 2) for v, s in vote_seat_percentages_list])
+    n_s = 1.0/sum([pow(s/100.0, 2) for v, s in vote_seat_percentages_list])
+    return {EFFECTIVE_NUMBER_OF_PARTIES_BY_VOTES: n_v,  EFFECTIVE_NUMBER_OF_PARTIES_BY_SEATS: n_s}
+
+
 def calculate_grofman_index(vote_seat_percentages_list):
     """
     Calculate the adjusted Loosemore-Hanby (Grofman) index of disproportionality.
-    As there is two ways to calculate this index, the minimum of them is returned
+    There is two ways to calculate this index. Here the effective number of parties by the ratio of votes is used.
     :param vote_seat_percentages_list: list of tuples containing (percentage of votes, percentage of seats)
     :return: a float (percentages, instead of shares, are used)
     """
     summatory = sum([abs(v-s) for v, s in vote_seat_percentages_list])
-    n_v = 1.0/sum([pow(v/100.0, 2) for v, s in vote_seat_percentages_list])
-    n_s = 1.0/sum([pow(s/100.0, 2) for v, s in vote_seat_percentages_list])
-    return min(summatory/n_v, summatory/n_s)
+    effective_number_of_parties = calculate_effective_number_of_parties(vote_seat_percentages_list)
+    return summatory/effective_number_of_parties[EFFECTIVE_NUMBER_OF_PARTIES_BY_VOTES]
 
 
 def calculate_lijphart_index(vote_seat_percentages_list):

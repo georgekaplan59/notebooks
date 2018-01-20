@@ -1,0 +1,676 @@
+Region,Constituency,Option,Votes,Seats
+Andalucía,Almería,Abstención,85642,0
+Andalucía,Almería,Votos en blanco,1890,0
+Andalucía,Almería,Votos nulos,1436,0
+Andalucía,Almería,PP,115925,2
+Andalucía,Almería,PSOE,135789,3
+Andalucía,Almería,IU,28580,0
+Andalucía,Almería,PA,4754,0
+Andalucía,Almería,UC,180,0
+Andalucía,Almería,PRT,152,0
+Andalucía,Almería,PCPE,296,0
+Andalucía,Almería,PH,182,0
+Andalucía,Almería,FEA,205,0
+Andalucía,Almería,NA,344,0
+Andalucía,Cádiz,Abstención,226362,0
+Andalucía,Cádiz,Votos en blanco,5126,0
+Andalucía,Cádiz,Votos nulos,5005,0
+Andalucía,Cádiz,PP,217795,4
+Andalucía,Cádiz,PSOE,270237,4
+Andalucía,Cádiz,IU,81116,1
+Andalucía,Cádiz,PA,37356,0
+Andalucía,Cádiz,UC,574,0
+Andalucía,Cádiz,PRT,576,0
+Andalucía,Cádiz,PCPE,925,0
+Andalucía,Cádiz,PH,573,0
+Andalucía,Cádiz,FEA,574,0
+Andalucía,Cádiz,NA,905,0
+Andalucía,Córdoba,Abstención,106799,0
+Andalucía,Córdoba,Votos en blanco,3415,0
+Andalucía,Córdoba,Votos nulos,2796,0
+Andalucía,Córdoba,PP,163155,2
+Andalucía,Córdoba,PSOE,220659,4
+Andalucía,Córdoba,IU,91773,1
+Andalucía,Córdoba,PA,13194,0
+Andalucía,Córdoba,UC,281,0
+Andalucía,Córdoba,PRT,295,0
+Andalucía,Córdoba,PCPE,711,0
+Andalucía,Córdoba,PH,245,0
+Andalucía,Córdoba,FEA,266,0
+Andalucía,Córdoba,NA,290,0
+Andalucía,Granada,Abstención,139027,0
+Andalucía,Granada,Votos en blanco,3749,0
+Andalucía,Granada,Votos nulos,2431,0
+Andalucía,Granada,PP,196049,3
+Andalucía,Granada,PSOE,237446,3
+Andalucía,Granada,IU,61214,1
+Andalucía,Granada,PA,9878,0
+Andalucía,Granada,UC,469,0
+Andalucía,Granada,PRT,351,0
+Andalucía,Granada,PCPE,716,0
+Andalucía,Granada,PH,302,0
+Andalucía,Granada,FEA,290,0
+Andalucía,Granada,NA,329,0
+Andalucía,Huelva,Abstención,87657,0
+Andalucía,Huelva,Votos en blanco,1758,0
+Andalucía,Huelva,Votos nulos,2264,0
+Andalucía,Huelva,PP,89882,2
+Andalucía,Huelva,PSOE,138259,3
+Andalucía,Huelva,IU,27060,0
+Andalucía,Huelva,PA,7129,0
+Andalucía,Huelva,UC,167,0
+Andalucía,Huelva,PRT,143,0
+Andalucía,Huelva,PCPE,246,0
+Andalucía,Huelva,PH,172,0
+Andalucía,Huelva,FEA,95,0
+Andalucía,Huelva,NA,215,0
+Andalucía,Jaén,Abstención,82800,0
+Andalucía,Jaén,Votos en blanco,2639,0
+Andalucía,Jaén,Votos nulos,2076,0
+Andalucía,Jaén,PP,155947,3
+Andalucía,Jaén,PSOE,205818,3
+Andalucía,Jaén,IU,49564,0
+Andalucía,Jaén,PA,7200,0
+Andalucía,Jaén,UC,354,0
+Andalucía,Jaén,PRT,182,0
+Andalucía,Jaén,PCPE,461,0
+Andalucía,Jaén,PH,171,0
+Andalucía,Jaén,FEA,218,0
+Andalucía,Jaén,NA,236,0
+Andalucía,Málaga,Abstención,231700,0
+Andalucía,Málaga,Votos en blanco,6666,0
+Andalucía,Málaga,Votos nulos,4062,0
+Andalucía,Málaga,PP,263920,4
+Andalucía,Málaga,PSOE,288165,5
+Andalucía,Málaga,IU,103930,1
+Andalucía,Málaga,PA,18492,0
+Andalucía,Málaga,UC,589,0
+Andalucía,Málaga,PCPE,792,0
+Andalucía,Málaga,PH,624,0
+Andalucía,Málaga,FEA,985,0
+Andalucía,Málaga,NA,686,0
+Andalucía,Málaga,UAD,627,0
+Andalucía,Sevilla,Abstención,266826,0
+Andalucía,Sevilla,Votos en blanco,10812,0
+Andalucía,Sevilla,Votos nulos,5348,0
+Andalucía,Sevilla,PP,327384,4
+Andalucía,Sevilla,PSOE,521484,7
+Andalucía,Sevilla,IU,139733,2
+Andalucía,Sevilla,PA,36797,0
+Andalucía,Sevilla,UC,478,0
+Andalucía,Sevilla,PRT,1117,0
+Andalucía,Sevilla,PCPE,1162,0
+Andalucía,Sevilla,PH,515,0
+Andalucía,Sevilla,FEA,616,0
+Andalucía,Sevilla,NA,500,0
+Andalucía,Sevilla,AUN,351,0
+Andalucía,Sevilla,FEI,346,0
+Andalucía,Sevilla,VDPA,529,0
+Aragón,Huesca,Abstención,39877,0
+Aragón,Huesca,Votos en blanco,1980,0
+Aragón,Huesca,Votos nulos,883,0
+Aragón,Huesca,PP,61900,2
+Aragón,Huesca,PSOE,55766,1
+Aragón,Huesca,IU,10230,0
+Aragón,Huesca,CHA,4571,0
+Aragón,Huesca,UC,294,0
+Aragón,Huesca,PRT,167,0
+Aragón,Huesca,FEA,115,0
+Aragón,Huesca,SOS,727,0
+Aragón,Teruel,Abstención,26826,0
+Aragón,Teruel,Votos en blanco,1158,0
+Aragón,Teruel,Votos nulos,504,0
+Aragón,Teruel,PP,45207,2
+Aragón,Teruel,PSOE,37856,1
+Aragón,Teruel,IU,5506,0
+Aragón,Teruel,CHA,1691,0
+Aragón,Teruel,UC,227,0
+Aragón,Teruel,PRT,94,0
+Aragón,Teruel,FEA,91,0
+Aragón,Zaragoza,Abstención,159701,0
+Aragón,Zaragoza,Votos en blanco,6221,0
+Aragón,Zaragoza,Votos nulos,2433,0
+Aragón,Zaragoza,PP,263868,4
+Aragón,Zaragoza,PSOE,174567,3
+Aragón,Zaragoza,IU,55019,0
+Aragón,Zaragoza,CHA,43477,0
+Aragón,Zaragoza,PRT,449,0
+Aragón,Zaragoza,PH,299,0
+Aragón,Zaragoza,FEA,407,0
+Aragón,Zaragoza,SOS,2026,0
+Aragón,Zaragoza,DSA,265,0
+Principado de Asturias,Asturias,Abstención,230845,0
+Principado de Asturias,Asturias,Votos en blanco,6805,0
+Principado de Asturias,Asturias,Votos nulos,3492,0
+Principado de Asturias,Asturias,PP,297079,4
+Principado de Asturias,Asturias,PSOE,288558,4
+Principado de Asturias,Asturias,IU,112339,1
+Principado de Asturias,Asturias,LVE,3575,0
+Principado de Asturias,Asturias,UC,1709,0
+Principado de Asturias,Asturias,PRT,497,0
+Principado de Asturias,Asturias,PCPE,813,0
+Principado de Asturias,Asturias,PAS,12213,0
+Principado de Asturias,Asturias,FEA,487,0
+Illes Balears,Illes Balears,Abstención,172041,0
+Illes Balears,Illes Balears,Votos en blanco,4318,0
+Illes Balears,Illes Balears,Votos nulos,2503,0
+Illes Balears,Illes Balears,PP,194859,4
+Illes Balears,Illes Balears,PSOE,155244,3
+Illes Balears,Illes Balears,IU,33224,0
+Illes Balears,Illes Balears,ERC,1802,0
+Illes Balears,Illes Balears,LVE,9539,0
+Illes Balears,Illes Balears,UC,449,0
+Illes Balears,Illes Balears,PSM-ENE,24644,0
+Illes Balears,Illes Balears,UM,6943,0
+Illes Balears,Illes Balears,CR,384,0
+Illes Balears,Illes Balears,ABA,379,0
+Canarias,Las Palmas,Abstención,186449,0
+Canarias,Las Palmas,Votos en blanco,2919,0
+Canarias,Las Palmas,Votos nulos,2205,0
+Canarias,Las Palmas,PP,194812,3
+Canarias,Las Palmas,PSOE,118769,2
+Canarias,Las Palmas,IU,26305,0
+Canarias,Las Palmas,CC,110338,2
+Canarias,Las Palmas,LVE,609,0
+Canarias,Las Palmas,UC,362,0
+Canarias,Las Palmas,LV-GV,1823,0
+Canarias,Las Palmas,PCPE,765,0
+Canarias,Las Palmas,PH,473,0
+Canarias,Las Palmas,FREPIC,1496,0
+Canarias,Las Palmas,PCN,722,0
+Canarias,Santa Cruz de Tenerife,Abstención,207302,0
+Canarias,Santa Cruz de Tenerife,Votos en blanco,2098,0
+Canarias,Santa Cruz de Tenerife,Votos nulos,1494,0
+Canarias,Santa Cruz de Tenerife,PP,135701,2
+Canarias,Santa Cruz de Tenerife,PSOE,144480,3
+Canarias,Santa Cruz de Tenerife,IU,21867,0
+Canarias,Santa Cruz de Tenerife,CC,110080,2
+Canarias,Santa Cruz de Tenerife,LVE,508,0
+Canarias,Santa Cruz de Tenerife,UC,808,0
+Canarias,Santa Cruz de Tenerife,LV-GV,1539,0
+Canarias,Santa Cruz de Tenerife,PCPE,415,0
+Canarias,Santa Cruz de Tenerife,PH,261,0
+Canarias,Santa Cruz de Tenerife,FREPIC,1071,0
+Canarias,Santa Cruz de Tenerife,LG,243,0
+Cantabria,Cantabria,Abstención,91457,0
+Cantabria,Cantabria,Votos en blanco,5578,0
+Cantabria,Cantabria,Votos nulos,2477,0
+Cantabria,Cantabria,PP,175651,3
+Cantabria,Cantabria,PSOE,123940,2
+Cantabria,Cantabria,IU,39541,0
+Cantabria,Cantabria,UC,1408,0
+Cantabria,Cantabria,PRT,377,0
+Cantabria,Cantabria,PCPE,640,0
+Cantabria,Cantabria,PH,608,0
+Cantabria,Cantabria,AR,257,0
+Castilla - La Mancha,Albacete,Abstención,46886,0
+Castilla - La Mancha,Albacete,Votos en blanco,2289,0
+Castilla - La Mancha,Albacete,Votos nulos,1191,0
+Castilla - La Mancha,Albacete,PP,105294,2
+Castilla - La Mancha,Albacete,PSOE,103471,2
+Castilla - La Mancha,Albacete,IU,22682,0
+Castilla - La Mancha,Albacete,UC,617,0
+Castilla - La Mancha,Albacete,PRT,242,0
+Castilla - La Mancha,Albacete,PH,301,0
+Castilla - La Mancha,Albacete,FEA,227,0
+Castilla - La Mancha,Albacete,TC-PNC,156,0
+Castilla - La Mancha,Albacete,PRCM,495,0
+Castilla - La Mancha,Ciudad Real,Abstención,68129,0
+Castilla - La Mancha,Ciudad Real,Votos en blanco,2632,0
+Castilla - La Mancha,Ciudad Real,Votos nulos,2015,0
+Castilla - La Mancha,Ciudad Real,PP,141494,2
+Castilla - La Mancha,Ciudad Real,PSOE,142101,3
+Castilla - La Mancha,Ciudad Real,IU,25689,0
+Castilla - La Mancha,Ciudad Real,UC,862,0
+Castilla - La Mancha,Ciudad Real,PRT,208,0
+Castilla - La Mancha,Ciudad Real,PH,290,0
+Castilla - La Mancha,Ciudad Real,TC-PNC,149,0
+Castilla - La Mancha,Ciudad Real,PRCM,788,0
+Castilla - La Mancha,Cuenca,Abstención,28528,0
+Castilla - La Mancha,Cuenca,Votos en blanco,1235,0
+Castilla - La Mancha,Cuenca,Votos nulos,957,0
+Castilla - La Mancha,Cuenca,PP,70199,2
+Castilla - La Mancha,Cuenca,PSOE,59261,1
+Castilla - La Mancha,Cuenca,IU,7844,0
+Castilla - La Mancha,Cuenca,UC,601,0
+Castilla - La Mancha,Cuenca,PRT,89,0
+Castilla - La Mancha,Cuenca,PH,88,0
+Castilla - La Mancha,Cuenca,TC-PNC,216,0
+Castilla - La Mancha,Cuenca,PRCM,270,0
+Castilla - La Mancha,Guadalajara,Abstención,24130,0
+Castilla - La Mancha,Guadalajara,Votos en blanco,1380,0
+Castilla - La Mancha,Guadalajara,Votos nulos,726,0
+Castilla - La Mancha,Guadalajara,PP,53683,2
+Castilla - La Mancha,Guadalajara,PSOE,36156,1
+Castilla - La Mancha,Guadalajara,IU,11080,0
+Castilla - La Mancha,Guadalajara,UC,333,0
+Castilla - La Mancha,Guadalajara,PRT,96,0
+Castilla - La Mancha,Guadalajara,PH,121,0
+Castilla - La Mancha,Guadalajara,FEA,138,0
+Castilla - La Mancha,Guadalajara,TC-PNC,87,0
+Castilla - La Mancha,Guadalajara,PRCM,84,0
+Castilla - La Mancha,Guadalajara,PRGU,338,0
+Castilla - La Mancha,Toledo,Abstención,64590,0
+Castilla - La Mancha,Toledo,Votos en blanco,2720,0
+Castilla - La Mancha,Toledo,Votos nulos,2296,0
+Castilla - La Mancha,Toledo,PP,164313,3
+Castilla - La Mancha,Toledo,PSOE,142262,2
+Castilla - La Mancha,Toledo,IU,27904,0
+Castilla - La Mancha,Toledo,UC,1011,0
+Castilla - La Mancha,Toledo,PRT,194,0
+Castilla - La Mancha,Toledo,PH,214,0
+Castilla - La Mancha,Toledo,FEA,329,0
+Castilla - La Mancha,Toledo,TC-PNC,309,0
+Castilla - La Mancha,Toledo,PRCM,642,0
+Castilla - La Mancha,Toledo,PRV,680,0
+Castilla y León,Ávila,Abstención,27298,0
+Castilla y León,Ávila,Votos en blanco,1171,0
+Castilla y León,Ávila,Votos nulos,805,0
+Castilla y León,Ávila,PP,68503,2
+Castilla y León,Ávila,PSOE,35527,1
+Castilla y León,Ávila,IU,8977,0
+Castilla y León,Ávila,UC,1793,0
+Castilla y León,Ávila,PRT,95,0
+Castilla y León,Ávila,PH,147,0
+Castilla y León,Ávila,FEA,163,0
+Castilla y León,Ávila,TC-PNC,136,0
+Castilla y León,Ávila,URCL,196,0
+Castilla y León,Burgos,Abstención,65752,0
+Castilla y León,Burgos,Votos en blanco,3753,0
+Castilla y León,Burgos,Votos nulos,1856,0
+Castilla y León,Burgos,PP,126837,3
+Castilla y León,Burgos,PSOE,71804,1
+Castilla y León,Burgos,IU,25880,0
+Castilla y León,Burgos,UC,524,0
+Castilla y León,Burgos,PRT,378,0
+Castilla y León,Burgos,FEA,264,0
+Castilla y León,Burgos,TC-PNC,3205,0
+Castilla y León,Burgos,URCL,632,0
+Castilla y León,León,Abstención,100473,0
+Castilla y León,León,Votos en blanco,3586,0
+Castilla y León,León,Votos nulos,1638,0
+Castilla y León,León,PP,162850,3
+Castilla y León,León,PSOE,126532,2
+Castilla y León,León,IU,25622,0
+Castilla y León,León,LVE,1109,0
+Castilla y León,León,UC,313,0
+Castilla y León,León,PRT,121,0
+Castilla y León,León,PH,134,0
+Castilla y León,León,FEA,208,0
+Castilla y León,León,UPL,12049,0
+Castilla y León,León,TC-PNC,61,0
+Castilla y León,León,URCL,115,0
+Castilla y León,León,PREPAL,395,0
+Castilla y León,León,PB,1000,0
+Castilla y León,Palencia,Abstención,29145,0
+Castilla y León,Palencia,Votos en blanco,1688,0
+Castilla y León,Palencia,Votos nulos,762,0
+Castilla y León,Palencia,PP,63245,2
+Castilla y León,Palencia,PSOE,46740,1
+Castilla y León,Palencia,IU,9784,0
+Castilla y León,Palencia,UC,492,0
+Castilla y León,Palencia,PRT,71,0
+Castilla y León,Palencia,PCPE,143,0
+Castilla y León,Palencia,PH,165,0
+Castilla y León,Palencia,FEA,134,0
+Castilla y León,Palencia,TC-PNC,321,0
+Castilla y León,Palencia,URCL,515,0
+Castilla y León,Salamanca,Abstención,64118,0
+Castilla y León,Salamanca,Votos en blanco,3367,0
+Castilla y León,Salamanca,Votos nulos,1459,0
+Castilla y León,Salamanca,PP,130734,3
+Castilla y León,Salamanca,PSOE,84687,1
+Castilla y León,Salamanca,IU,19526,0
+Castilla y León,Salamanca,UC,600,0
+Castilla y León,Salamanca,PRT,226,0
+Castilla y León,Salamanca,PH,227,0
+Castilla y León,Salamanca,FEA,171,0
+Castilla y León,Salamanca,TC-PNC,183,0
+Castilla y León,Salamanca,URCL,1289,0
+Castilla y León,Salamanca,PREPAL,702,0
+Castilla y León,Segovia,Abstención,24565,0
+Castilla y León,Segovia,Votos en blanco,1514,0
+Castilla y León,Segovia,Votos nulos,762,0
+Castilla y León,Segovia,PP,54188,2
+Castilla y León,Segovia,PSOE,31903,1
+Castilla y León,Segovia,IU,8808,0
+Castilla y León,Segovia,UC,990,0
+Castilla y León,Segovia,LV-GV,840,0
+Castilla y León,Segovia,PRT,84,0
+Castilla y León,Segovia,PH,90,0
+Castilla y León,Segovia,FEA,98,0
+Castilla y León,Segovia,TC-PNC,249,0
+Castilla y León,Segovia,URCL,144,0
+Castilla y León,Segovia,CR,56,0
+Castilla y León,Soria,Abstención,20161,0
+Castilla y León,Soria,Votos en blanco,1083,0
+Castilla y León,Soria,Votos nulos,458,0
+Castilla y León,Soria,PP,32561,2
+Castilla y León,Soria,PSOE,20226,1
+Castilla y León,Soria,IU,4662,0
+Castilla y León,Soria,UC,200,0
+Castilla y León,Soria,TC-PNC,132,0
+Castilla y León,Soria,URCL,119,0
+Castilla y León,Valladolid,Abstención,77116,0
+Castilla y León,Valladolid,Votos en blanco,4844,0
+Castilla y León,Valladolid,Votos nulos,1786,0
+Castilla y León,Valladolid,PP,164840,3
+Castilla y León,Valladolid,PSOE,120941,2
+Castilla y León,Valladolid,IU,42622,0
+Castilla y León,Valladolid,UC,942,0
+Castilla y León,Valladolid,PRT,263,0
+Castilla y León,Valladolid,PCPE,350,0
+Castilla y León,Valladolid,PH,543,0
+Castilla y León,Valladolid,FEA,301,0
+Castilla y León,Valladolid,TC-PNC,925,0
+Castilla y León,Valladolid,URCL,867,0
+Castilla y León,Zamora,Abstención,41426,0
+Castilla y León,Zamora,Votos en blanco,1677,0
+Castilla y León,Zamora,Votos nulos,1035,0
+Castilla y León,Zamora,PP,75223,2
+Castilla y León,Zamora,PSOE,51509,1
+Castilla y León,Zamora,IU,7824,0
+Castilla y León,Zamora,UC,1473,0
+Castilla y León,Zamora,PRT,108,0
+Castilla y León,Zamora,PH,132,0
+Castilla y León,Zamora,TC-PNC,77,0
+Castilla y León,Zamora,URCL,184,0
+Castilla y León,Zamora,PREPAL,850,0
+Castilla y León,Zamora,PIZ,215,0
+Cataluña,Barcelona,Abstención,911831,0
+Cataluña,Barcelona,Votos en blanco,20365,0
+Cataluña,Barcelona,Votos nulos,8710,0
+Cataluña,Barcelona,PP,548323,6
+Cataluña,Barcelona,PSOE,1203339,13
+Cataluña,Barcelona,IU,260881,2
+Cataluña,Barcelona,CIU,818832,9
+Cataluña,Barcelona,ERC,114195,1
+Cataluña,Barcelona,LVE,6241,0
+Cataluña,Barcelona,UC,2221,0
+Cataluña,Barcelona,PRT,1936,0
+Cataluña,Barcelona,PH,1060,0
+Cataluña,Barcelona,FEA,1296,0
+Cataluña,Barcelona,PEC,3980,0
+Cataluña,Barcelona,CR,655,0
+Cataluña,Barcelona,PICC,895,0
+Cataluña,Barcelona,N,495,0
+Cataluña,Girona,Abstención,98694,0
+Cataluña,Girona,Votos en blanco,1739,0
+Cataluña,Girona,Votos nulos,1495,0
+Cataluña,Girona,PP,39569,0
+Cataluña,Girona,PSOE,120118,2
+Cataluña,Girona,IU,11038,0
+Cataluña,Girona,CIU,136448,3
+Cataluña,Girona,ERC,18548,0
+Cataluña,Girona,LVE,620,0
+Cataluña,Girona,UC,219,0
+Cataluña,Girona,PRT,273,0
+Cataluña,Girona,PH,219,0
+Cataluña,Girona,FEA,131,0
+Cataluña,Girona,PEC,325,0
+Cataluña,Girona,PICC,90,0
+Cataluña,Lleida,Abstención,74066,0
+Cataluña,Lleida,Votos en blanco,1601,0
+Cataluña,Lleida,Votos nulos,884,0
+Cataluña,Lleida,PP,40463,1
+Cataluña,Lleida,PSOE,74686,1
+Cataluña,Lleida,IU,7508,0
+Cataluña,Lleida,CIU,88880,2
+Cataluña,Lleida,ERC,12615,0
+Cataluña,Lleida,UC,154,0
+Cataluña,Lleida,PRT,191,0
+Cataluña,Lleida,PH,121,0
+Cataluña,Lleida,PICC,99,0
+Cataluña,Tarragona,Abstención,112593,0
+Cataluña,Tarragona,Votos en blanco,2152,0
+Cataluña,Tarragona,Votos nulos,1829,0
+Cataluña,Tarragona,PP,70045,1
+Cataluña,Tarragona,PSOE,133000,3
+Cataluña,Tarragona,IU,17558,0
+Cataluña,Tarragona,CIU,107473,2
+Cataluña,Tarragona,ERC,17187,0
+Cataluña,Tarragona,LVE,967,0
+Cataluña,Tarragona,UC,158,0
+Cataluña,Tarragona,PRT,242,0
+Cataluña,Tarragona,PH,127,0
+Cataluña,Tarragona,FEA,206,0
+Cataluña,Tarragona,PICC,145,0
+Extremadura,Badajoz,Abstención,87512,0
+Extremadura,Badajoz,Votos en blanco,3081,0
+Extremadura,Badajoz,Votos nulos,1694,0
+Extremadura,Badajoz,PP,167254,3
+Extremadura,Badajoz,PSOE,208287,3
+Extremadura,Badajoz,IU,42434,0
+Extremadura,Badajoz,UC,502,0
+Extremadura,Badajoz,PRT,288,0
+Extremadura,Badajoz,PCPE,584,0
+Extremadura,Badajoz,CEX,3389,0
+Extremadura,Badajoz,SIEX,1073,0
+Extremadura,Badajoz,FEI,199,0
+Extremadura,Cáceres,Abstención,63781,0
+Extremadura,Cáceres,Votos en blanco,2000,0
+Extremadura,Cáceres,Votos nulos,1328,0
+Extremadura,Cáceres,PP,115444,2
+Extremadura,Cáceres,PSOE,131616,3
+Extremadura,Cáceres,IU,20068,0
+Extremadura,Cáceres,UC,505,0
+Extremadura,Cáceres,PRT,193,0
+Extremadura,Cáceres,PH,140,0
+Extremadura,Cáceres,FEA,174,0
+Extremadura,Cáceres,CEX,3923,0
+Extremadura,Cáceres,CR,124,0
+Extremadura,Cáceres,SIEX,605,0
+Galicia,A Coruña,Abstención,285422,0
+Galicia,A Coruña,Votos en blanco,6736,0
+Galicia,A Coruña,Votos nulos,3928,0
+Galicia,A Coruña,PP,325922,5
+Galicia,A Coruña,PSOE,233344,3
+Galicia,A Coruña,IU,29669,0
+Galicia,A Coruña,BNG,87824,1
+Galicia,A Coruña,LVE,3102,0
+Galicia,A Coruña,UC,1228,0
+Galicia,A Coruña,PH,619,0
+Galicia,A Coruña,FPG,825,0
+Galicia,Lugo,Abstención,94447,0
+Galicia,Lugo,Votos en blanco,1838,0
+Galicia,Lugo,Votos nulos,1396,0
+Galicia,Lugo,PP,129523,3
+Galicia,Lugo,PSOE,78692,1
+Galicia,Lugo,IU,6292,0
+Galicia,Lugo,BNG,24136,0
+Galicia,Lugo,LVE,857,0
+Galicia,Lugo,UC,439,0
+Galicia,Lugo,PH,108,0
+Galicia,Lugo,FEA,121,0
+Galicia,Lugo,FPG,250,0
+Galicia,Ourense,Abstención,95503,0
+Galicia,Ourense,Votos en blanco,1583,0
+Galicia,Ourense,Votos nulos,1981,0
+Galicia,Ourense,PP,112326,2
+Galicia,Ourense,PSOE,83474,2
+Galicia,Ourense,IU,3915,0
+Galicia,Ourense,BNG,27779,0
+Galicia,Ourense,LVE,611,0
+Galicia,Ourense,UC,231,0
+Galicia,Ourense,PH,110,0
+Galicia,Ourense,FPG,193,0
+Galicia,Pontevedra,Abstención,215312,0
+Galicia,Pontevedra,Votos en blanco,5526,0
+Galicia,Pontevedra,Votos nulos,3856,0
+Galicia,Pontevedra,PP,259634,4
+Galicia,Pontevedra,PSOE,178981,3
+Galicia,Pontevedra,IU,22377,0
+Galicia,Pontevedra,BNG,80408,1
+Galicia,Pontevedra,LVE,2026,0
+Galicia,Pontevedra,UC,715,0
+Galicia,Pontevedra,PH,607,0
+Galicia,Pontevedra,FPG,797,0
+Comunidad de Madrid,Madrid,Abstención,857171,0
+Comunidad de Madrid,Madrid,Votos en blanco,41927,0
+Comunidad de Madrid,Madrid,Votos nulos,10582,0
+Comunidad de Madrid,Madrid,PP,1642489,17
+Comunidad de Madrid,Madrid,PSOE,1046904,11
+Comunidad de Madrid,Madrid,IU,547901,6
+Comunidad de Madrid,Madrid,LVE,5492,0
+Comunidad de Madrid,Madrid,UC,12220,0
+Comunidad de Madrid,Madrid,LV-GV,12975,0
+Comunidad de Madrid,Madrid,PRT,1339,0
+Comunidad de Madrid,Madrid,PCPE,1588,0
+Comunidad de Madrid,Madrid,PH,1495,0
+Comunidad de Madrid,Madrid,FEA,1031,0
+Comunidad de Madrid,Madrid,LV,8483,0
+Comunidad de Madrid,Madrid,AUN,1907,0
+Comunidad de Madrid,Madrid,PREPAL,815,0
+Comunidad de Madrid,Madrid,CR,712,0
+Comunidad de Madrid,Madrid,PRIM,1671,0
+Comunidad de Madrid,Madrid,PRV,976,0
+Comunidad de Madrid,Madrid,FEI,867,0
+Comunidad de Madrid,Madrid,AR,656,0
+Comunidad de Madrid,Madrid,ADEC,598,0
+Comunidad Foral de Navarra,Navarra,Abstención,117893,0
+Comunidad Foral de Navarra,Navarra,Votos en blanco,5480,0
+Comunidad Foral de Navarra,Navarra,Votos nulos,2015,0
+Comunidad Foral de Navarra,Navarra,PP,120335,2
+Comunidad Foral de Navarra,Navarra,PSOE,98102,2
+Comunidad Foral de Navarra,Navarra,IU,40354,1
+Comunidad Foral de Navarra,Navarra,EAJ-PNV,3158,0
+Comunidad Foral de Navarra,Navarra,HB,26451,0
+Comunidad Foral de Navarra,Navarra,EA,12233,0
+Comunidad Foral de Navarra,Navarra,UC,356,0
+Comunidad Foral de Navarra,Navarra,CDN,17020,0
+Comunidad Foral de Navarra,Navarra,PRT,501,0
+Comunidad Foral de Navarra,Navarra,FEA,196,0
+País Vasco,Araba - Álava,Abstención,64688,0
+País Vasco,Araba - Álava,Votos en blanco,2490,0
+País Vasco,Araba - Álava,Votos nulos,1458,0
+País Vasco,Araba - Álava,PP,45731,2
+País Vasco,Araba - Álava,PSOE,42561,1
+País Vasco,Araba - Álava,IU,19535,0
+País Vasco,Araba - Álava,EAJ-PNV,33761,1
+País Vasco,Araba - Álava,HB,12552,0
+País Vasco,Araba - Álava,EA,9364,0
+País Vasco,Araba - Álava,LVE,774,0
+País Vasco,Araba - Álava,UC,213,0
+País Vasco,Araba - Álava,PRT,255,0
+País Vasco,Araba - Álava,PH,190,0
+País Vasco,Gipuzkoa,Abstención,173954,0
+País Vasco,Gipuzkoa,Votos en blanco,7998,0
+País Vasco,Gipuzkoa,Votos nulos,2549,0
+País Vasco,Gipuzkoa,PP,56651,1
+País Vasco,Gipuzkoa,PSOE,89645,2
+País Vasco,Gipuzkoa,IU,28644,0
+País Vasco,Gipuzkoa,EAJ-PNV,77976,1
+País Vasco,Gipuzkoa,HB,72829,1
+País Vasco,Gipuzkoa,EA,58030,1
+País Vasco,Gipuzkoa,LVE,2199,0
+País Vasco,Gipuzkoa,UC,236,0
+País Vasco,Gipuzkoa,PRT,431,0
+País Vasco,Gipuzkoa,PH,374,0
+País Vasco,Bizkaia,Abstención,266963,0
+País Vasco,Bizkaia,Votos en blanco,9063,0
+País Vasco,Bizkaia,Votos nulos,4770,0
+País Vasco,Bizkaia,PP,128904,2
+País Vasco,Bizkaia,PSOE,166293,2
+País Vasco,Bizkaia,IU,67954,1
+País Vasco,Bizkaia,EAJ-PNV,204056,3
+País Vasco,Bizkaia,HB,69472,1
+País Vasco,Bizkaia,EA,36234,0
+País Vasco,Bizkaia,LVE,3058,0
+País Vasco,Bizkaia,UC,430,0
+País Vasco,Bizkaia,PRT,560,0
+País Vasco,Bizkaia,PH,394,0
+País Vasco,Bizkaia,FEA,139,0
+País Vasco,Bizkaia,ICV-GORORDO,11833,0
+País Vasco,Bizkaia,CR,331,0
+País Vasco,Bizkaia,FEI,138,0
+Región de Murcia,Murcia,Abstención,154862,0
+Región de Murcia,Murcia,Votos en blanco,5516,0
+Región de Murcia,Murcia,Votos nulos,3251,0
+Región de Murcia,Murcia,PP,350337,5
+Región de Murcia,Murcia,PSOE,266738,3
+Región de Murcia,Murcia,IU,73961,1
+Región de Murcia,Murcia,UC,1916,0
+Región de Murcia,Murcia,PRT,892,0
+Región de Murcia,Murcia,FEA,669,0
+Región de Murcia,Murcia,AUN,711,0
+Región de Murcia,Murcia,NR,1452,0
+La Rioja,La Rioja,Abstención,42277,0
+La Rioja,La Rioja,Votos en blanco,2612,0
+La Rioja,La Rioja,Votos nulos,1080,0
+La Rioja,La Rioja,PP,88069,2
+La Rioja,La Rioja,PSOE,65311,2
+La Rioja,La Rioja,IU,15530,0
+La Rioja,La Rioja,UC,472,0
+La Rioja,La Rioja,FEA,167,0
+La Rioja,La Rioja,P.RIOJANO,6065,0
+Comunitat Valenciana,Alicante / Alacant,Abstención,186304,0
+Comunitat Valenciana,Alicante / Alacant,Votos en blanco,6997,0
+Comunitat Valenciana,Alicante / Alacant,Votos nulos,4712,0
+Comunitat Valenciana,Alicante / Alacant,PP,382321,5
+Comunitat Valenciana,Alicante / Alacant,PSOE,335149,5
+Comunitat Valenciana,Alicante / Alacant,IU,88772,1
+Comunitat Valenciana,Alicante / Alacant,ERC,1034,0
+Comunitat Valenciana,Alicante / Alacant,UV,4292,0
+Comunitat Valenciana,Alicante / Alacant,LVE,6707,0
+Comunitat Valenciana,Alicante / Alacant,UC,1239,0
+Comunitat Valenciana,Alicante / Alacant,UPV-BN,5586,0
+Comunitat Valenciana,Alicante / Alacant,PRT,473,0
+Comunitat Valenciana,Alicante / Alacant,PCPE,1825,0
+Comunitat Valenciana,Alicante / Alacant,PH,370,0
+Comunitat Valenciana,Alicante / Alacant,FEA,818,0
+Comunitat Valenciana,Alicante / Alacant,AR,324,0
+Comunitat Valenciana,Alicante / Alacant,ENV,292,0
+Comunitat Valenciana,Alicante / Alacant,UPRA,651,0
+Comunitat Valenciana,Castellón / Castelló,Abstención,68809,0
+Comunitat Valenciana,Castellón / Castelló,Votos en blanco,2559,0
+Comunitat Valenciana,Castellón / Castelló,Votos nulos,1885,0
+Comunitat Valenciana,Castellón / Castelló,PP,140578,3
+Comunitat Valenciana,Castellón / Castelló,PSOE,120997,2
+Comunitat Valenciana,Castellón / Castelló,IU,23003,0
+Comunitat Valenciana,Castellón / Castelló,ERC,840,0
+Comunitat Valenciana,Castellón / Castelló,UV,5933,0
+Comunitat Valenciana,Castellón / Castelló,LVE,2446,0
+Comunitat Valenciana,Castellón / Castelló,UC,544,0
+Comunitat Valenciana,Castellón / Castelló,UPV-BN,4341,0
+Comunitat Valenciana,Castellón / Castelló,PRT,174,0
+Comunitat Valenciana,Castellón / Castelló,PCPE,666,0
+Comunitat Valenciana,Castellón / Castelló,PH,144,0
+Comunitat Valenciana,Castellón / Castelló,FEA,163,0
+Comunitat Valenciana,Castellón / Castelló,ENV,157,0
+Comunitat Valenciana,Valencia / València,Abstención,328598,0
+Comunitat Valenciana,Valencia / València,Votos en blanco,11175,0
+Comunitat Valenciana,Valencia / València,Votos nulos,6731,0
+Comunitat Valenciana,Valencia / València,PP,607914,7
+Comunitat Valenciana,Valencia / València,PSOE,534847,6
+Comunitat Valenciana,Valencia / València,IU,174807,2
+Comunitat Valenciana,Valencia / València,ERC,1420,0
+Comunitat Valenciana,Valencia / València,UV,81350,1
+Comunitat Valenciana,Valencia / València,LVE,11249,0
+Comunitat Valenciana,Valencia / València,UC,1599,0
+Comunitat Valenciana,Valencia / València,UPV-BN,16850,0
+Comunitat Valenciana,Valencia / València,PRT,475,0
+Comunitat Valenciana,Valencia / València,PCPE,1415,0
+Comunitat Valenciana,Valencia / València,PH,486,0
+Comunitat Valenciana,Valencia / València,FEA,621,0
+Comunitat Valenciana,Valencia / València,AUN,428,0
+Comunitat Valenciana,Valencia / València,CR,482,0
+Comunitat Valenciana,Valencia / València,ENV,574,0
+Comunitat Valenciana,Valencia / València,ALAS,402,0
+Comunitat Valenciana,Valencia / València,LAE,296,0
+Ciudad de Ceuta,Ceuta,Abstención,18566,0
+Ciudad de Ceuta,Ceuta,Votos en blanco,395,0
+Ciudad de Ceuta,Ceuta,Votos nulos,242,0
+Ciudad de Ceuta,Ceuta,PP,17288,1
+Ciudad de Ceuta,Ceuta,PSOE,11627,0
+Ciudad de Ceuta,Ceuta,IU,718,0
+Ciudad de Ceuta,Ceuta,PRT,56,0
+Ciudad de Ceuta,Ceuta,PH,41,0
+Ciudad de Ceuta,Ceuta,PSPC,2365,0
+Ciudad de Melilla,Melilla,Abstención,16901,0
+Ciudad de Melilla,Melilla,Votos en blanco,441,0
+Ciudad de Melilla,Melilla,Votos nulos,251,0
+Ciudad de Melilla,Melilla,PP,13788,1
+Ciudad de Melilla,Melilla,PSOE,11810,0
+Ciudad de Melilla,Melilla,IU,950,0
+Ciudad de Melilla,Melilla,UC,74,0
+Ciudad de Melilla,Melilla,PNM,200,0

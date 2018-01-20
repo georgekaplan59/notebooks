@@ -15,7 +15,8 @@ def filter_data_by_minimum_percentage(dataframe, minimum_percentage):
     valid_votes = dataframe[valid_votes_selector][VOTES].sum()
     dataframe['porcentaje'] = 100 * dataframe[VOTES] / valid_votes
     dataframe['apto'] = dataframe['porcentaje'] > minimum_percentage
-    return dataframe[(valid_votes_selector) & (dataframe['apto'])][[OPTION, VOTES]]
+    no_blank_votes = ~(dataframe[OPTION] == OPTION_BLANK_VOTE)
+    return dataframe[(valid_votes_selector) & (no_blank_votes) & (dataframe['apto'])][[OPTION, VOTES]]
 
 
 def assign_constituency_representatives_by_dhont(dataframe, number_of_representatives, minimum_percentage=3.0):
