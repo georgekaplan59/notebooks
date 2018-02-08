@@ -97,9 +97,9 @@ def calculate_saint_lague_index(vote_seat_percentages_list):
     return sum([pow(v - s, 2)/v for v, s in vote_seat_percentages_list])
 
 
-def calculate_dhont_index(vote_seat_percentages_list):
+def calculate_dhondt_index(vote_seat_percentages_list):
     """
-    Calculate the D'Hont index of disproportionality
+    Calculate the D'Hondt index of disproportionality
     :param vote_seat_percentages_list: list of tuples containing (percentage of votes, percentage of seats)
     :return: a float (percentages, instead of shares, are used)
     """
@@ -138,7 +138,7 @@ def calculate_disproportionality_indexes(parliament_df, total_votes_df, verbose=
                   'grofman': calculate_grofman_index(percentage_pairings),
                   'lijphart': calculate_lijphart_index(percentage_pairings),
                   'saint_lague': calculate_saint_lague_index(percentage_pairings),
-                  'dhont': calculate_dhont_index(percentage_pairings),
+                  'dhondt': calculate_dhondt_index(percentage_pairings),
                   'cox_shugart': calculate_cox_shugart_index(percentage_pairings)}
     if include_catalan:
         blocks = split_parliament(parliament_df)
@@ -154,7 +154,7 @@ def calculate_disproportionality_indexes(parliament_df, total_votes_df, verbose=
         print("Índice de Grofman:         %.3f" % indicators['grofman'])
         print("Índice de Lijphart:        %.3f" % indicators['lijphart'])
         print("Índice de Saint-Lague:     %.3f" % indicators['saint_lague'])
-        print("Índice de D'Hont:          %.3f" % indicators['dhont'])
+        print("Índice de D'Hondt:         %.3f" % indicators['dhondt'])
         print("Índice de Cox-Shugart:     %.3f" % indicators['cox_shugart'])
         if include_catalan:
             print("#diputados (indepes):      %d" % indicators['indep_s'])

@@ -6,12 +6,12 @@ from constants import *
 from disproportionality import calculate_disproportionality_indexes
 from disproportionality import calculate_votes_and_seats_percentages
 from disproportionality import calculate_effective_number_of_parties
-from dhont import assign_constituency_representatives_by_dhont
+from apportionment import calculate_parliament, assign_constituency_representatives, get_allowed_formulas
 
 
-def convert_dict_to_df(dictionary):
+def convert_dict_to_df(dictionary, names=(DATE, SINGLE_CONSTITUENCY)):
     df = pd.DataFrame.from_dict(dictionary, orient='index')
-    df.index.names = [DATE, SINGLE_CONSTITUENCY]
+    df.index.names = list(names)
     df.reset_index(inplace=True)
     pd.to_datetime(df[DATE])
     df.index = df[DATE]
@@ -48,9 +48,10 @@ def calculate_dispr_indexes_and_parties():
         eff_n_parties[(election_date, False)] = calculate_effective_number_of_parties(vote_seat_percentages_list)
 
         # Single constituency parliament config
-        parliament_single_cons = assign_constituency_representatives_by_dhont(spain_df,
-                                                                              total_seats_in_parliament,
-                                                                              minimum_percentage=0.0)
+        parliament_single_cons = assign_constituency_representatives(spain_df,
+                                                                     total_seats_in_parliament,
+                                                                     formula="d'Hondt",
+                                                                     minimum_percentage=0.0)
         d = calculate_disproportionality_indexes(parliament_single_cons, df_total_votes, verbose=False)
         vote_seat_percentages_list = calculate_votes_and_seats_percentages(parliament_single_cons, df_total_votes)
         dispr[(election_date, True)] = d
@@ -59,11 +60,51 @@ def calculate_dispr_indexes_and_parties():
 
     dispr_df = convert_dict_to_df(dispr)
     dispr_df[['rae', 'loosemore_hanby', 'gallagher', 'grofman',
-              'lijphart', 'saint_lague', 'dhont', 'cox_shugart']].round(3)
+              'lijphart', 'saint_lague', 'dhondt', 'cox_shugart']].round(3)
     seats_df = convert_dict_to_df(seats)
     eff_n_parties_df = convert_dict_to_df(eff_n_parties)
 
     return dispr_df, seats_df, eff_n_parties_df
+
+
+def calculate_disproportionality_indexes_by_formula():
+    dispr = {}
+    directory = "./data/"
+    elections = [f for f in os.listdir(directory) if re.match(r'spanish_congress_\d{4}_\d{2}', f)]
+    formulas = get_allowed_formulas()
+    for election in elections:
+        matching = re.match(r'spanish_congress_(\d{4})_(\d{2})', election)
+        election_date = "%s-%s" % (matching.group(1), matching.group(2))
+
+        df = pd.read_csv('./data/%s' % election)
+        constituencies = df[[CONSTITUENCY, SEATS]].groupby(by=CONSTITUENCY).agg({SEATS: sum}).to_dict()[SEATS]
+        total_seats_in_parliament = df.groupby([REGION, CONSTITUENCY]).sum()[SEATS].sum()
+        dataframe = df[[CONSTITUENCY, OPTION, VOTES]].set_index([CONSTITUENCY, OPTION])
+
+        spain_df = df[[OPTION, VOTES, SEATS]].groupby(OPTION).sum()
+        spain_df = spain_df.sort_values([SEATS, VOTES], ascending=False).reset_index()
+        df_total_votes = spain_df.set_index(OPTION)
+
+        # Actual parliament config
+        for formula in formulas:
+            parliament = calculate_parliament(dataframe, constituencies, formula=formula, verbose=False)
+            d = calculate_disproportionality_indexes(parliament, df_total_votes, verbose=False)
+            dispr[(election_date, formula)] = d
+
+        # Single constituency parliament config
+        parliament_single_cons = assign_constituency_representatives(spain_df,
+                                                                     total_seats_in_parliament,
+                                                                     formula="d'Hondt",
+                                                                     minimum_percentage=0.0)
+        d = calculate_disproportionality_indexes(parliament_single_cons, df_total_votes, verbose=False)
+        dispr[(election_date, 'Single Constituency')] = d
+
+    dispr_df = convert_dict_to_df(dispr, names=(DATE, 'Formula'))
+    dispr_df[['rae', 'loosemore_hanby', 'gallagher', 'grofman',
+              'lijphart', 'saint_lague', 'dhondt', 'cox_shugart']].round(3)
+
+    return dispr_df
+
 
 
 def get_parliaments_by_election(year, month, threshold=0.0):
@@ -87,8 +128,10 @@ def get_parliaments_by_election(year, month, threshold=0.0):
     parliament.sort_values([SEATS, VOTES], ascending=False, inplace=True)
 
     # Single constituency parliament config
-    virtual = assign_constituency_representatives_by_dhont(spain_df, total_seats_in_parliament,
-                                                           minimum_percentage=threshold)
+    virtual = assign_constituency_representatives(spain_df,
+                                                  total_seats_in_parliament,
+                                                  formula="d'Hondt",
+                                                  minimum_percentage=0.0)
     virtual[VOTES + '_%'] = np.round(100.0 * virtual[VOTES] / total_valid_votes, 2)
     virtual[SEATS + '_%'] = np.round(100.0 * virtual[SEATS] / total_seats_in_parliament, 2)
     virtual = virtual.join(names)

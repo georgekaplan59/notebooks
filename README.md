@@ -11,3 +11,4 @@ Some Jupyter notebooks to analyse some issues:
 * when is it crucial to apply the right data type to achieve the precision required by our calculation
 * how to measure the representativeness of a _proportional_ electoral system (in Spanish)
 * how to increase the proportionality of the Spanish Electoral Law.
+* how the electoral formula changes the disproportionality indexes of a proportional electoral system.
